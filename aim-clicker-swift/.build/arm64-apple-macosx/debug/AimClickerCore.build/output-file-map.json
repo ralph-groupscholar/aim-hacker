@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/master.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AXAttributeHelpers.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerController.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerOptions.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimTargetDetector.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickGate.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickLimiter.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AxorcClient.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/MouseClicker.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/OverlayWindowController.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TabInterceptor.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TargetCandidateScorer.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.swiftdeps"
+  }
+}

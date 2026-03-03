@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aim Clicker</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1>Aim Clicker</h1>
+
+      <p id="status" class="status">Connecting...</p>
+
+      <label class="row">
+        <span>Auto-click</span>
+        <input id="auto-enabled" type="checkbox" />
+      </label>
+
+      <label class="row">
+        <span>Tab intercept</span>
+        <input id="tab-enabled" type="checkbox" />
+      </label>
+
+      <label class="row">
+        <span>Show overlay</span>
+        <input id="overlay-enabled" type="checkbox" />
+      </label>
+
+      <label class="row">
+        <span>Min interval (ms)</span>
+        <input id="min-interval" type="number" min="0" step="1" />
+      </label>
+
+      <label class="row">
+        <span>Max auto targets</span>
+        <input id="max-targets" type="number" min="1" step="1" />
+      </label>
+
+      <div class="metrics">
+        <div>Target detected: <strong id="has-target">-</strong></div>
+        <div>Auto clicks this run: <strong id="auto-clicks">0</strong></div>
+        <div>Total clicks: <strong id="total-clicks">0</strong></div>
+      </div>
+
+      <div class="actions">
+        <button id="toggle-auto" type="button">Toggle Auto</button>
+        <button id="click-now" type="button">Click Now</button>
+        <button id="refresh" type="button">Refresh</button>
+      </div>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

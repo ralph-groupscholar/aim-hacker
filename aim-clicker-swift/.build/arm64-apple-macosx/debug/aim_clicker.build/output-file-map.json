@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/master.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Sources/aim-clicker/main.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main.swiftdeps"
+  }
+}

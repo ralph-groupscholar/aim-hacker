@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Aim Clicker JS",
+  "version": "0.1.0",
+  "description": "Low-latency Human Benchmark Aim Trainer click helper.",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://humanbenchmark.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Aim Clicker",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "toggle-auto-click": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Toggle auto-click mode"
+    },
+    "click-current-target": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X",
+        "mac": "Command+Shift+X"
+      },
+      "description": "Click current target immediately"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://humanbenchmark.com/*"
+      ],
+      "js": [
+        "core.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

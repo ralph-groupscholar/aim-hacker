@@ -1,0 +1,4 @@
+module aim_clickerPackageTests {
+    header "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/aim-clickerPackageTests-Swift.h"
+    requires objc
+}

@@ -1,0 +1,4 @@
+module AimClickerCore {
+    header "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerCore-Swift.h"
+    requires objc
+}

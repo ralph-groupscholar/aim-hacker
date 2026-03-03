@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/master.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AXCoordinateConverterTests.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickGateTests.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickLimiterTests.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AxorcOutputParserTests.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/SelectorBuilderTests.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests.swiftdeps"
+  },
+  "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/TargetCandidateScorerTests.swift": {
+    "dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests.d",
+    "object": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests.swift.o",
+    "swiftmodule": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests.swiftdeps"
+  }
+}

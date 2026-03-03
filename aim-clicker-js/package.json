@@ -1,0 +1,9 @@
+{
+  "name": "aim-clicker-js",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Speed-focused Aim Trainer Chrome extension",
+  "scripts": {
+    "test": "node --test"
+  }
+}

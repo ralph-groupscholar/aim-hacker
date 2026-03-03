@@ -1,0 +1,1037 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.xctest/Contents/MacOS/aim-clickerPackageTests",
+      "packagePath" : "/Users/ralph/Documents/aim-clicker",
+      "productName" : "aim-clickerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.AimClickerCore-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/sources",
+      "importPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AXAttributeHelpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimTargetDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickGate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickLimiter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AxorcClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/MouseClicker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/OverlayWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TabInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TargetCandidateScorer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AimClickerCore",
+      "moduleOutputPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCore.swiftmodule",
+      "objects" : [
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerCore-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "aim_clicker"
+      ],
+      "outputFileMapPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AXAttributeHelpers.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerController.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerOptions.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimTargetDetector.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickGate.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickLimiter.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AxorcClient.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/MouseClicker.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/OverlayWindowController.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TabInterceptor.swift",
+        "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TargetCandidateScorer.swift"
+      ],
+      "tempsPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.AimClickerCoreTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/sources",
+      "importPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AXCoordinateConverterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickGateTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickLimiterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AxorcOutputParserTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/SelectorBuilderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/TargetCandidateScorerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "AimClickerCoreTests",
+      "moduleOutputPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests.swift.o",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "aim_clicker"
+      ],
+      "outputFileMapPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AXCoordinateConverterTests.swift",
+        "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickGateTests.swift",
+        "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickLimiterTests.swift",
+        "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AxorcOutputParserTests.swift",
+        "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/SelectorBuilderTests.swift",
+        "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/TargetCandidateScorerTests.swift"
+      ],
+      "tempsPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.aim-clicker-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/sources",
+      "importPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/aim-clicker/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "aim_clicker",
+      "moduleOutputPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/aim_clicker.swiftmodule",
+      "objects" : [
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "aim_clicker_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "aim_clicker"
+      ],
+      "outputFileMapPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/aim_clicker.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ralph/Documents/aim-clicker/Sources/aim-clicker/main.swift"
+      ],
+      "tempsPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.aim-clickerPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/sources",
+      "importPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/AimClickerCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "aim_clickerPackageTests",
+      "moduleOutputPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/aim_clickerPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/aim-clickerPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "aim_clicker"
+      ],
+      "outputFileMapPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules/aim_clickerPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "AimClickerCore" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "AimClickerCore",
+      "-package-name",
+      "aim_clicker",
+      "-incremental",
+      "-c",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AXAttributeHelpers.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerController.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerOptions.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimTargetDetector.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickGate.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickLimiter.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AxorcClient.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/MouseClicker.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/OverlayWindowController.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TabInterceptor.swift",
+      "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TargetCandidateScorer.swift",
+      "-I",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerCore-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "aim_clicker",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "AimClickerCoreTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "AimClickerCoreTests",
+      "-package-name",
+      "aim_clicker",
+      "-incremental",
+      "-c",
+      "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AXCoordinateConverterTests.swift",
+      "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickGateTests.swift",
+      "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickLimiterTests.swift",
+      "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AxorcOutputParserTests.swift",
+      "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/SelectorBuilderTests.swift",
+      "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/TargetCandidateScorerTests.swift",
+      "-I",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "aim_clicker",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "aim_clicker" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "aim_clicker",
+      "-package-name",
+      "aim_clicker",
+      "-incremental",
+      "-c",
+      "/Users/ralph/Documents/aim-clicker/Sources/aim-clicker/main.swift",
+      "-I",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "aim_clicker_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "aim_clicker",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "aim_clickerPackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "aim_clickerPackageTests",
+      "-package-name",
+      "aim_clicker",
+      "-incremental",
+      "-c",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/aim-clickerPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "aim_clicker",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "AimClickerCore" : [
+
+    ],
+    "AimClickerCoreTests" : [
+      "AimClickerCore"
+    ],
+    "aim_clicker" : [
+      "AimClickerCore"
+    ],
+    "aim_clickerPackageTests" : [
+      "AimClickerCoreTests",
+      "AimClickerCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AXAttributeHelpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimClickerOptions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AimTargetDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickGate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AutoClickLimiter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/AxorcClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/MouseClicker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/OverlayWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TabInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/AimClickerCore/TargetCandidateScorer.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/sources"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AXCoordinateConverterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickGateTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AutoClickLimiterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/AxorcOutputParserTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/SelectorBuilderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Tests/AimClickerCoreTests/TargetCandidateScorerTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/sources"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clicker-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clicker-entitlement.plist"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clicker.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clicker.product/Objects.LinkFileList"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AXAttributeHelpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimClickerOptions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AimTargetDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickGate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AutoClickLimiter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/AxorcClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/MouseClicker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/OverlayWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TabInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCore.build/TargetCandidateScorer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AXCoordinateConverterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickGateTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AutoClickLimiterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/AxorcOutputParserTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/SelectorBuilderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/AimClickerCoreTests.build/TargetCandidateScorerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/runner.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/Sources/aim-clicker/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clicker.build/sources"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim-clickerPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/aim_clickerPackageTests.build/sources"
+    },
+    "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ralph/Documents/aim-clicker/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
